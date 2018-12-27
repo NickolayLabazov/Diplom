@@ -31,8 +31,6 @@ align-items: center;
 justify-content: space-between;
 }
 
-
-
 @media (min-width: 768px) and (max-width: 1280px){
 .header{
 background: url(./img/football_1280.jpg) no-repeat;
@@ -45,7 +43,6 @@ background: url(./img/football_767.jpg) no-repeat;
 height: 570px;
 }
 }
-
 
 .ton{
 width: 100%;
@@ -69,7 +66,7 @@ margin-bottom: 0;
 z-index: 1;
 }
 
-@media (max-width: 767px){
+@media (max-width: 745px){
 .surface{
 width: 135px;
 margin-top: 30px;
@@ -99,7 +96,7 @@ margin-bottom: 0;
 margin-left: 33.18vw;
 }
 
-@media (max-width: 767px){
+@media (max-width: 745px){
 .name1{
 margin-left: 12%;
 }
@@ -112,7 +109,6 @@ margin-left: 36%;
 }
 }
 
-
 h1{
 box-sizing: border-box;
 font-size: 4.48vw;
@@ -122,14 +118,13 @@ font-stretch: wider;
 letter-spacing: 0.8rem;
 }
 
-@media (max-width: 767px){
+@media (max-width: 745px){
 .h1{
 font-size: 6.2vw;
 }
 }
 
-
-@media (min-width: 768px) and (max-width: 900px){
+@media (min-width: 746px) and (max-width: 900px){
 .name1{
 margin-left: 10rem;
 }
@@ -141,11 +136,7 @@ margin-left: 18rem;
 h1{
 font-size: 8vw;
 }
-
-
-
 }
-
 
 h2{
 border: 0px solid blue;
@@ -172,7 +163,6 @@ margin-bottom: 11rem;
 margin-left: auto;
 margin-right: auto;
 z-index: 1;
-
 }
 
 .download a{
@@ -185,7 +175,6 @@ color: white;
 display: flex;
 text-decoration: none;
 }
-
 
 .ikon{
 width: 50px;
@@ -213,7 +202,6 @@ font-size: 1.4rem;
 
 .download_text p span{
 font-weight: bold;
-
 }
 
 .content_01{
@@ -232,14 +220,6 @@ width: 47%;
 margin-left: auto;
 }
 
-@media (min-width:746px) and (max-width: 1599px) {
-  .content_01 h2{
-  width: 46%;
-  margin-right: 14%;
- }
-}
-
-
 .content_01  h3{
 color: #c1c1c1;
 }
@@ -254,14 +234,6 @@ margin-left: auto;
 margin-right: 14%;
 order: 2;
 }
-
-@media (min-width:746px) and (max-width: 1599px) {
-  .connection{
-  width: 46%;
-  margin-right: 14%;
- }
-}
-
 
 .connection div{
 box-sizing: border-box;
@@ -279,15 +251,7 @@ margin-bottom: 5.8rem;
 width: 33%;
 margin-left: auto;
 margin-right: 14%;
-//letter-spacing: 0.2rem;
 order: 3;
-}
-
-@media (min-width: 746px) and (max-width: 1599px) {
-  .content_01 p{
-  width: 46%;
-  margin-right: 14%;
- }
 }
 
 .number_1{
@@ -308,7 +272,7 @@ position: absolute;
 }
 
 @media (min-width:1251px) and (max-width: 1599px) {
-  
+
   .content_01 img, .content_01 picture{
 width: 640px;
 top: 1rem;
@@ -323,7 +287,6 @@ top: 1rem;
 right: 35%;
 }  
 }
-
 
 @media (max-width: 745px) {
 .content_01 img, .content_01 picture{
@@ -349,9 +312,6 @@ margin-right: 10%;
 margin-left: 10%;
 }
 }
-
-
-
 
 .grey{
 width: 100%;
@@ -407,7 +367,6 @@ order:3;
 
 .content_02 img, .content_02 picture{
 width: 990px;
-//position: absolute;
 top: -8rem;
 right: 12rem;
 order: 2;
@@ -419,11 +378,9 @@ position: absolute;
 }
 }
 
-
-
 @media (max-width: 745px) {
   
-  .content_02 img, .content_02 picture{
+.content_02 img, .content_02 picture{
 margin: 0 auto;
 width: 320px;
 }  
@@ -441,12 +398,10 @@ margin-left: 10%;
 }
 }
 
-
-@media (min-width:768px) and (max-width: 1749px) {
+@media (min-width:746px) and (max-width: 1749px) {
   
   .content_02 img, .content_02 picture{
 width: 560px;
-
 top: -2rem;
 right: 0;
 }  
@@ -456,7 +411,6 @@ right: 0;
 margin-right: auto;
 margin-left: 10%;
 }
-
 
 .content_03{
 width: 100%;
@@ -474,8 +428,15 @@ padding: 0;
 }
 
 .one, .four, .five{
+border: none;
 width: 50%;
-height: 50%;
+margin: 0;
+padding: 0;
+}
+
+.one img, .four img, .five img{
+width: 100%;
+height: 100%;
 margin: 0;
 padding: 0;
 }
@@ -517,13 +478,13 @@ justify-content: space-between;
 z-index: 1;
 }
 
-@media (min-width: 768px) and (max-width: 1280px){
+@media (min-width: 746px) and (max-width: 1280px){
 .footer{
 background: url(./img/game_1280.jpg) no-repeat;
 }
 }
 
-@media (max-width: 767px){
+@media (max-width: 745px){
 .footer{
 background: url(./img/game_767.jpg) no-repeat;
 height: 570px;
@@ -532,13 +493,11 @@ height: 570px;
 
 .download_app{
 display: flex;
-//flex-direction: row;
 flex-wrap: wrap;
 z-index:  1;
 margin-top: 23rem;
 margin-bottom: 2rem;
 margin-right: 7rem;
-//border: 1px solid #999;
 }
 
 .download_app_ikon {
@@ -607,7 +566,6 @@ color: white;
 }
 
 @media (max-width: 900px){
-
 .quadrL, .quadrR{
 max-width: 115px;
 height: 115px;
@@ -657,7 +615,6 @@ top: -9rem;
 left: 4rem;
 }
 
-
 .content_03 p{
 margin-left: 4rem;
 margin-top: 0;
@@ -669,19 +626,9 @@ margin-left: 4rem;
 margin-top: 8rem;
 margin-bottom: 0;
 }
-
-
-
-
-
-
-
 }
 
-
-
 @media (max-width: 1350px) and (min-width: 746px){
-
 .content_03 p{
 margin-top: 0;
 margin-right: 7rem;
@@ -690,10 +637,8 @@ margin-right: 7rem;
 .content_03 h2{
 font-size: 3.75vw;
 margin-bottom: 0;
-
 }
 }
-
 
 @media(max-width: 745px){
 .content_03 p{
@@ -708,9 +653,7 @@ font-size: 3rem;
 margin-left: 2rem;
 margin-right: 2rem;
 }
-
 }
-
 
 @media(max-width: 745px){
 .download a{
@@ -718,10 +661,6 @@ margin-top: 15px;
 width: 280px;
 height: 35px;
 border-radius: 17px;
-}
-
-.download{
-//margin-top: 0;
 }
 
 .download{
@@ -735,8 +674,6 @@ margin-right: auto;
 width: 30px;
 margin-top:auto;
 margin-right: 5px;
-//margin-bottom: auto;
-//margin-left: auto;
 }
 
 .download_text{
@@ -748,22 +685,14 @@ margin-top: 0;
 font-size: 1rem; 
 }
 
-
-
 .download_app{
-//border: 1px solid #999;
 width: auto;
 height: auto;
-//display: flex;
-//flex-direction: row;
-//z-index:  1;
-margin-top: 6rem;
+margin-top: 5rem;
 margin-bottom: 6rem;
 margin-right: auto;
 margin-left: auto;
 flex-direction: column;
-//align-items: center;
-//justify-content: space-between;
 }
 
 .download_app_ikon {
@@ -773,17 +702,13 @@ display: flex;
 border-radius: 15px;
 margin: auto;
 margin-bottom: 6rem;
-//z-index: 1;
 }
 
 .download_app_ikon svg{
 width:60px;
 }
 
-
 .download_app_text{
-//text-transform: uppercase;
-//margin: 0;
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -791,7 +716,8 @@ align-items: center;
 
 .download_app_text h2{
 margin-bottom: 0;
-font-size: 7.2vw;
+margin-top: 0;
+font-size: 2.2rem;
 }
 
 .download_app_text p{
@@ -805,15 +731,11 @@ margin-top: 0;
 }
 
 .footer.download{
-
 margin: 0;
-
 }
 
 .footer{
-
 justify-content: flex-start;
-
 }
 }
 
@@ -836,4 +758,25 @@ flex-direction: column;
 align-items: center;
 }
 
+}
+
+@media (min-width:746px) and (max-width: 1599px) {
+  .content_01 h2{
+  width: 46%;
+  margin-right: 14%;
+ }
+}
+
+@media (min-width:746px) and (max-width: 1599px) {
+  .connection{
+  width: 46%;
+  margin-right: 14%;
+ }
+}
+
+@media (min-width: 746px) and (max-width: 1599px) {
+  .content_01 p{
+  width: 46%;
+  margin-right: 14%;
+ }
 }
